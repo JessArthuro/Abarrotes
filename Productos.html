@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Productos</title>
+	<link rel="stylesheet" type="text/css"href="estilo.css">
+	<script src ="validar.js"></script>
+</head>
+<body>   
+     <hi class="form"></hi>
+    	<div class="form">
+	<form action="" method="POST" class="form-register" 
+  onsubmit="return validar();">
+    
+    <h2 class="form__titulo">Agregar Productos</h2>
+    <div class="contenedor-inputs">
+    <input type="text"id="id"  name="id" placeholder="ID" class="input-48"  requiered> 
+    <input type="text" id="producto" name="producto" placeholder="Nombre producto" class="input-48" requiered>
+    <input type="text" id="descripcion" name="descripcion" placeholder="Descripcion" class="input-100" requiered>
+    <input type="text" id="cantidad" name="cantidad" placeholder="Cantidad" class="input-48" requiered>
+    <input type="text" id="Precio" name="precio" placeholder="Precio" class="input-48" requiered>
+  
+    <input type="submit" value="Almacenar" class="btn-enviar">    
+    <p class="form__link">¿Verificar producto? <a href="#"> Ingresa aqui</a></p>
+    </div> 
+    </form>
+	</div>
+</body>
+</html>
